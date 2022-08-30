@@ -1,0 +1,59 @@
+{
+	"id_assume_cost": 0,
+	"id_cash_delivery_service": 0,
+	"id_company": "6077",
+	"id_agent": "2600",
+	"collected_value": 0,
+	"type_currency": "COP",
+	"origin": {
+		"id_type": "NIT",
+		"id_number": "999074197737",
+		"id_dane": "05000500",
+		"business_name": "AVEONLINE",
+		"nature_origin": "J",
+		"address": "CRA 28 # 46-88",
+		"contact": "AVE -ATC",
+		"email": "",
+		"phone": "3000000000",
+		"city": "MEDELLIN(ANTIOQUIA)",
+		"country": "Colombia"
+	},
+	"destiny": {
+		"id_type": "CC",
+		"id_number": "999074197737",
+		"business_name": "CARINIANA",
+		"nature_destiny": "N",
+		"address": "CALLE 6N # 16-09 BARRIO PROFESIONALES",
+		"contact": "YEIMAR LEMUS",
+		"email": "yeimar112003@gmail.com",
+		"phone": "4567896",
+		"id_dane": "5001000",
+		"city": "BELLO(ANTIOQUIA)"
+	},
+	"detail": [
+		{
+			"units": 1,
+			"weight": 1,
+			"height": 1,
+			"length": 1,
+			"width": 1,
+			"declared_value": 10000,
+			"volume_weight": 15,
+			"description": "Alajas de marfil"
+		},
+		{
+			"units": 1,
+			"weight": 1,
+			"height": 1,
+			"length": 1,
+			"width": 1,
+			"declared_value": 10000,
+			"volume_weight": 15,
+			"description": "Alajas de marfil"
+		}
+	],
+	"other": {
+		"sender_email": "prueba@gmail.com",
+		"sender_contact_name": "PRUEBA"
+	}
+}

@@ -1,0 +1,58 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rem="http://www.tcc.com.co/xsd/remesa/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <rem:grabardespacho7>
+            <rem:despacho>
+
+                <rem:clave>{{CLAVE}}</rem:clave>
+                <rem:numerorelacion></rem:numerorelacion>
+                <rem:fechahorarelacion></rem:fechahorarelacion>
+
+                <!--Optional:-->
+                <rem:solicitudrecogida>
+                    <rem:numero></rem:numero>
+                    <rem:fecha>{{FECHA-RECOGIDA}}</rem:fecha>
+                    <rem:ventanainicio>{{FECHA-HORA-INICIO-RECOGIDA}}</rem:ventanainicio>
+                    <rem:ventanafin>{{FECHA-HORA-FIN-RECOGIDA}}</rem:ventanafin>
+                </rem:solicitudrecogida>
+
+                <rem:unidadnegocio>{{UNIDAD-NEGOCIO}}</rem:unidadnegocio>
+                <rem:numeroremesa>{{NUMERO-REMESA}}</rem:numeroremesa>
+                <rem:fechadespacho>{{FECHA-REMESA}}</rem:fechadespacho>
+                <rem:cuentaremitente>{{CUENTA-REMITENTE}}</rem:cuentaremitente>
+
+                <rem:tipoidentificacionremitente>{{TIPO_ID_REMITENTE}}</rem:tipoidentificacionremitente>
+                <rem:identificacionremitente>{{IDENTIFICACION_REMITENTE}}</rem:identificacionremitente>
+
+                <rem:razonsocialremitente>{{RAZON_SOCIAL_REMITENTE}}</rem:razonsocialremitente>
+                <rem:naturalezaremitente>{{NATURALEZA_REMITENTE}}</rem:naturalezaremitente>
+                <rem:direccionremitente>{{DIRECCION_REMITENTE}}</rem:direccionremitente>
+                <rem:contactoremitente>{{CONTACTO_REMITENTE}}</rem:contactoremitente>
+                <rem:emailremitente>{{EMAIL_REMITENTE}}</rem:emailremitente>
+                <rem:telefonoremitente>{{TELEFONO_REMITENTE}}</rem:telefonoremitente>
+                <rem:ciudadorigen>{{CODIGO_DANE_CIUDAD_ORIGEN}}</rem:ciudadorigen>
+
+                <rem:tipoidentificaciondestinatario>{{TIPO_ID_DESTINATARIO}}</rem:tipoidentificaciondestinatario>
+                <rem:identificaciondestinatario>{{IDENTIFICACION_DESTINATARIO}}</rem:identificaciondestinatario>
+
+                <rem:razonsocialdestinatario>{{RAZON_SOCIAL_DESTINATARIO}}</rem:razonsocialdestinatario>
+                <rem:naturalezadestinatario>{{NATURALEZA_DESTINATARIO}}</rem:naturalezadestinatario>
+                <rem:direcciondestinatario>{{DIRECCION_DESTINATARIO}}</rem:direcciondestinatario>
+                <rem:contactodestinatario>{{CONTACTO_DESTINATARIO}}</rem:contactodestinatario>
+                <rem:emaildestinatario>{{EMAIL_DESTINATARIO}}</rem:emaildestinatario>
+                <rem:telefonodestinatario>{{TELEFONO_DESTINATARIO}}</rem:telefonodestinatario>
+                <rem:ciudaddestinatario>{{CODIGO_DANE_CIUDAD_DESTINO}}</rem:ciudaddestinatario>
+
+                <rem:observaciones>{{OBSERVACIONES}}</rem:observaciones>
+
+                <!--1 or more repetitions:-->
+                {{PAQUETES}}
+                <!--Zero or more repetitions:-->
+                <rem:documentoreferencia>
+
+                </rem:documentoreferencia>
+                <rem:generardocumentos>TRUE</rem:generardocumentos>
+            </rem:despacho>
+        </rem:grabardespacho7>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="org.refersion.ProjectSettingsState">
+    <option name="functionName" value="rfsndev-inbound-webhook-service-capture-trolley" />
+    <option name="repoName" value="Lambda-Webhook-Service" />
+    <option name="testType" value="SQSMessage" />
+    <option name="queueName" value="RFSNDEV-Admin-Bulk-Action" />
+    <option name="queuePrefix" value="RFSNDEV" />
+  </component>
+</project>
